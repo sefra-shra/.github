@@ -12,7 +12,7 @@ We recommend that the following `R` packages be installed directly on your machi
 
 ## Installing pandoc
 
-A recent version of Pandoc (>= 1.12.3) is required to compile the package vignette with `rmarkdown`. Pandoc is installed as part of the installation of RStudio, and will be available from within an active RStudio session. Pandoc can also be installed directly, so that it is available for package builds from the command line, or outside of an RStudio session. Whether Pandoc is installed and available for use can be checked from within an R or RStudio session using:
+A recent version of Pandoc (>= 1.12.3) is required to compile the package vignettes with `rmarkdown`. Pandoc is installed as part of the installation of RStudio, and will be available from within an active RStudio session. Pandoc can also be installed directly, so that it is available for package builds from the command line, or outside of an RStudio session. Whether Pandoc is installed and available for use can be checked from within an R or RStudio session using:
 
       rmarkdown::pandoc_available(version = "1.12.3")
 
