@@ -56,7 +56,7 @@ In order to obtain access to the repositories:
 
     Take a copy of the personal access token immediately after creating it, as the token will be required in the next step.
 
-    Following creation of a PAT, the repository administrators will automatically recieve notification via GitHub, and can then provide access approval for that token.
+    Please do not send your PAT to the repository administrators directly. Following creation of a PAT, the administrators will automatically recieve notification via GitHub, and can then provide access approval for that token.
 
 1. Create an environment variable `GITHUB_SHRA_DATA_PAT` defined as your personal access token string. There are different ways to do this. We recommend adding the following line to your `.Renviron` file, which should be located in your `R_USER` (or `HOME`) directory:
 
